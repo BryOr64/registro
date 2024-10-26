@@ -1,5 +1,4 @@
-# QA PROJECT URBAN ROUTES es
-
+# QA PROJECT REGISTRO DE ESTUDIANTE
 Este proyecto realiza una prueba al formulario creado para la inscripcion a una unidad educativa pidiendo los 
 datos basicos para que se pueda inscribir un estudiante.
 
