@@ -1,11 +1,10 @@
 # QA PROJECT URBAN ROUTES es
 
-Este proyecto realiza una prueba de automatizacion de la pagina web **URBAN ROUTES**. 
-Este proyecto es una aplicación web que proporciona servicios de transporte urbano. Permite a los usuarios 
-planificar rutas, solicitar taxis y seleccionar diferentes tarifas de servicio.
+Este proyecto realiza una prueba al formulario creado para la inscripcion a una unidad educativa pidiendo los 
+datos basicos para que se pueda inscribir un estudiante.
 
-Tendremos que realizar una revision automatisada donde veremos testearemos solamante la utomatizacion de la 
-tarifa de taxis **COMFORT** para ver el funcionamiento. 
+Tendremos que realizar una revision automatisada donde veremos testearemos todos los campos de el formulario 
+en cuestion para ver si podemos detectar algun error al mometo de realizar la prueba automatizada.
 
 podremos revisar y conocer mas del lenguaje de Python, tambien realizaremos varias pruebas para la ejecucion 
 automatizada.
@@ -25,10 +24,10 @@ necesitaremos en el proyecto son:
     PYCHARM descargalo en https://www.jetbrains.com/pycharm/
 
 # Clonar el repositorio
-    git clone https://github.com/usuario/qa-project-Urban-Routes-es.git
+    git clone https://github.com/usuario/registro.git
 
 # Entrar al directorio del proyecto
-    cd ./qa-project-Urban-Routes-es
+    cd ./registro
 
 # Instalar selenium mediante la consola
     pip install selenium
@@ -42,14 +41,9 @@ necesitaremos en el proyecto son:
 ```
 # Estructura del Proyecto
  
- - **data.py** - contiene la información que se va a utilizar para las pruebas.
- - **main.py** - contiene los localizadores, clases y los metodos que se utilizaran.
- - **TestUrbanRoutes.py** - contiene todos los test que se realizaran.
- - **helps** - se encuentran 2 metodos 
-   -  **retrieve_phone_code:** que nos ayuda con la recuperacion 
-   del codigo para introducir el numero telefonico.
-   - **wait:** este metodo nos ayuda a colocar los tiempos de 
-   espera en el codigo
+ - **forumulario.html** - contine toda la programacion de lo que lleva el formulario.
+ - **estilos.css** - Contiene todo lo que es los estilos colores de el formlario .
+ - **test_formulario.py** - contiene todos los test que se realizaran.
 
 # Ejecución del Proyecto
    1. Como primer paso tenemos que ver que este **ChromeDriver** instalado 
@@ -57,20 +51,6 @@ necesitaremos en el proyecto son:
    2. Ejecutar el archivo TestUrbanRoutes.py
 
 # Conclusiones
-En este proyecto pudimos ver las maneras que podemos llamar a un Xpath asi tambien pudimos
-ver que todas las pruebas pasaron correctamente sin reportar ningun error eso nos lleva a 
-la conclucion de que la tarifa de taxi **COMFORT** esta funcionando correctamente.
-
-# Lista de Comprobación
-
-| **PRUEBAS**                                                          | **ESTADO**   |
-|----------------------------------------------------------------------|--------------|
-| *1. Configurar la dirección*                                         | ***PASSED*** |
-| *2. Seleccionar la tarifa comfort*                                   | ***PASSED*** |
-| *3. Rellenar el número de teléfono*                                  | ***PASSED*** |
-| *4. Agregar una tarjeta de crédito*                                  | ***PASSED*** |
-| *5. Escribir un mensaje para el conductor*                           | ***PASSED*** |
-| *6. Pedir una manta y pañuelos*                                      | ***PASSED*** |
-| *7. Pedir 2 helados*                                                 | ***PASSED*** |
-| *8. Aparecer el modal para buscar un taxi*                           | ***PASSED*** |
-| *9. Esperar a que aparezca la información del conductor en el modal* | ***PASSED*** |
+este es un proyecto en el cual pudimos ver lo importante que es llenar los campos para 
+el registro de un estudiante en el colegio ya que si nos equivocamos podemos probocar una contaminacion en
+en los datos. las prubas salieron existos pero aun nos falta analizar con mas detalle las pruebas
